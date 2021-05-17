@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-flow: row wrap;
+
+}
+/*cabecera*/
+#header {
+    width: 100%;
+    background-color: black;
+    padding: 1%;
+}
+#header img {
+    width: 80px;
+}
+#main {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 40px auto;
+    background-color: #080F17;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+label {
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0;
+}
+form p{
+    color: whitesmoke;
+    margin: 10px 0;
+}
+#plan{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+button {
+    background-color: #fff44f;
+}
+#label-terminos {
+    width: 10%;
+    
+}
+
+
+@media screen and (max-width: 640px){
+    form {
+        width: 60%;
+        display: flex;
+        flex-flow: column wrap;
+        margin: 40px auto;
+        background-color: #080F17;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: left;
+    }
+}

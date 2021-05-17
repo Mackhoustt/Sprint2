@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-flow: row wrap;
+}
+/*cabecera*/
+#header {
+    width: 100%;
+    background-color: black;
+    padding: 1%;
+}
+#header img {
+    width: 80px;
+}
+#main {
+    width: 100%;
+}
+/*Portada de bienvenida*/
+#portada {
+    width: 100%;
+    background-image: url(../img/portadaBienvenida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px double #FFF44F;
+}
+
+#portada  h1 {
+    color:#FFF44F;
+    font-size: 60px;
+}
+
+/*PLanes*/
+#descripcion{
+    margin: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+#contenedor-plan{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+#titulo{
+    width: 100%;
+    margin: 20px 0;
+}
+#plan {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.clasePlan {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #080F17;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.clasePlan h3{
+    color: #FFF44F;
+}
+
+.clasePlan h3, p {
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #FFF44F;
+}
