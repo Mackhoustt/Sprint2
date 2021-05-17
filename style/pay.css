@@ -19,6 +19,7 @@ body {
 #header img {
     width: 80px;
 }
+/*Formulario de pago*/
 #main {
     width: 100%;
     margin: 20px 0;
@@ -58,20 +59,27 @@ form p{
     padding: 5px;
 }
 button {
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     padding: 5px;
-    margin-top: 20px;
+    margin: 20px auto;
 }
-button {
+button:hover {
     background-color: #fff44f;
 }
 #label-terminos {
-    width: 10%;
-    
+    width: 100%;
+    color: whitesmoke;
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#terminos {
+    width: 5%;
+    margin: 0;
 }
 
-
+/*para movil*/
 @media screen and (max-width: 640px){
     form {
         width: 60%;
