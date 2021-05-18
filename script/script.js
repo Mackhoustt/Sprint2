@@ -4,7 +4,7 @@ const email= document.getElementById("email");
 const edad= document.getElementById("edad");
 const form= document.getElementById("form");
 let entrar =true;
-localStorage.setItem("nombre",JSON.stringify(nombre));
+
 
 function aceptar(entrar){
   
