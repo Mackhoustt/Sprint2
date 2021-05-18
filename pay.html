@@ -13,7 +13,7 @@
 <body>
     <header id="header"><img src="img/logo.png" alt=""></header>
     <main id="main">
-        <form action="">
+        <form action="./pelijack.html">
             <label for="nombre">Nombre <br><input type="text" name="nombre" id="nombre" required placeholder="Escribe tu nombre"></label>
             <label for="email">Correo <br><input type="email" name="email" id="email" required placeholder="Escribe tu correo"></label>
             <label for="edad">Edad <br><input type="number" name="edad" id="edad" min="18" max="120" required placeholder="Escribe tu edad"></label>
@@ -28,8 +28,8 @@
             </select>
             </div>
             <br>
-            <button onclick="location.href='pelijack.html'">Pagar</button>
-            
+            <button onclick="aceptar()" id="local">Pagar</button>
+            <script src="./script/script.js"></script>
             <label for="terminos" id="label-terminos"><input type="checkbox" required id="terminos">Acepto terminos y condiciones.</label>
             <p></p>
         </form>
