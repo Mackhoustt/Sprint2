@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PELIJACK</title>
     <link rel="stylesheet" href="style/pelijack.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+        </style>
 </head>
 <body>
     <header id="header">
@@ -13,12 +16,13 @@
         <nav id="header-nav">
             <div id="busqueda">
                 <input type="text" placeholder="buscar">
-                <button>Buscar</button>
+                <button id="buscador">Buscar</button>
             </div>
-            <a href="#">Anime</a>
-            <a href="#">Peliculas</a>
-            <a href="#">Mi lista</a>
+            <a href="#anime">Anime</a>
+            <a href="#peliculas">Peliculas</a>
+            <a href="#mi-lista">Mi lista</a>
         </nav>
+        
     </header>
     <main id="main">
         <div id="portada">
@@ -34,7 +38,7 @@
                 </li>
             </ul>
         </div>
-        <div class="peli">
+        <div class="peli" id="anime">
             <h3>Tendencias en Anime</h3>
             <div>
                 <img src="img/anime.jpg" alt="">
@@ -46,17 +50,32 @@
                 <img src="img/anime7.jpg" alt="">
             </div>
         </div>
-        <div class="peli">
+        <div class="peli" id="peliculas">
             <h3>Tendencias en Peliculas</h3>
             <div>
-                <a href="detalleDos.html"><img src="img/acuaman.jpg" alt=""></a>
-                <a href="detalleTres.html"><img src="img/wolverine.jpg" alt=""></a>
-                <a href="detalle.html"><img src="img/titanic.jpg" alt=""></a>
+                <a href="Acuaman.html"><img src="img/acuaman.jpg" alt=""></a>
+                <a href="Wolverine.html"><img src="img/wolverine.jpg" alt=""></a>
+                <a href="Titanic.html"><img src="img/titanic.jpg" alt=""></a>
                 <img src="img/pelicula1.jpg" alt="">
                 <img src="img/pelicula2.jpg" alt="">
                 <img src="img/pelicula3.jpg" alt="">
                 <img src="img/pelicula4.jpg" alt="">
             </div>
         </div>
+    </div>
+    <div class="peli" id="mi-lista">
+        <h3>Mi lista</h3>
+        <div>
+         <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+        </div>
+ 
+        </div>
+    </div>
     </main>
 </body>

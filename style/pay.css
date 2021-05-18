@@ -8,12 +8,16 @@ body {
     width: 100%;
     text-align: center;
     flex-flow: row wrap;
-
+  background-image: url(../img/portadaBienvenida.jpg);
+  
+  background-size: cover;
+  background-position: center;
 }
 /*cabecera*/
 #header {
     width: 100%;
-    background-color: black;
+    background: rgb(0, 0, 0);
+   
     padding: 1%;
 }
 #header img {
@@ -27,56 +31,87 @@ body {
     justify-content: center;
 }
 form {
+    margin-top: 100px;
     width: 40%;
+  
+    height: 90%;
     display: flex;
     flex-flow: column wrap;
-    margin: 40px auto;
-    background-color: #080F17;
+  
+   
+    
+    color: black;
+    background-color: rgb(240, 201, 74);
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
+    box-shadow: 10px 10px 10px;
 }
 label {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
     width: 100%;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    color: black;
 }
+
 input {
+    font-family: 'Playfair Display', serif;
     width: 100%;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     margin: 10px 0;
+    color: black;
+
 }
 form p{
+    color: black;
+    font-family: 'Playfair Display', serif;
     color: whitesmoke;
+    font-size: 20px;
     margin: 10px 0;
 }
 #plan{
+    font-family: 'Playfair Display', serif;
     width: 100%;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
+    color: black;
+    
 }
 button {
+    font-family: 'Playfair Display', serif;
     width: 50%;
     border-radius: 10px;
     padding: 5px;
     margin: 20px auto;
+    background-color: rgb(148, 167, 157);
 }
 button:hover {
-    background-color: #fff44f;
+    background-color: #db8617;
 }
 #label-terminos {
+    font-family: 'Playfair Display', serif;
     width: 100%;
     color: whitesmoke;
     display: inline;
     flex-direction: row;
     flex-wrap: wrap;
+    color: black;
+}
+form p{
+    color: black;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
 }
 #terminos {
+    font-family: 'Playfair Display', serif;
     width: 5%;
     margin: 0;
+    color: black;
 }
 
 /*para movil*/
@@ -86,7 +121,8 @@ button:hover {
         display: flex;
         flex-flow: column wrap;
         margin: 40px auto;
-        background-color: #080F17;
+        background: rgb(29,31,31);
+        background: linear-gradient(90deg, rgba(29,31,31,1) 25%, rgba(21,22,22,1) 43%, rgba(57,58,65,1) 60%, rgba(52,56,56,1) 66%, rgba(25,29,29,1) 100%);
         border-radius: 20px;
         padding: 20px;
         text-align: left;
