@@ -76,12 +76,10 @@ body {
     margin-top: 3%;
     width: 60%;
 }
-.peli div{
-    width: 80%;
+.peli div {
     height: 90%;
     display: flex;
-
-    overflow-block: auto;
+    overflow: auto;
 }
 .peli div  a, img{
     margin: 10px 1%;

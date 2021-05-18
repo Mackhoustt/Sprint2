@@ -1,5 +1,5 @@
 
- const nombre= document.getElementById("nombre");
+const nombre= document.getElementById("nombre");
 const email= document.getElementById("email");
 const edad= document.getElementById("edad");
 const form= document.getElementById("form");
