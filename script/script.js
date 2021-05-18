@@ -12,7 +12,7 @@ if (nombre.value.length >0 &&  email.value.length >0 && edad.value.length>0){
  
 }
 else{
-    alert("Faltan")
+    alert("Faltan información")
 }
 while (entrar==true){
     return  location.href="pelijack.html";
