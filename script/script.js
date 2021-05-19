@@ -5,7 +5,7 @@ const edad= document.getElementById("edad");
 const form= document.getElementById("form");
 
 
-
+document.getElementById("label-terminos").style.display = "none";
 
 let entrar =true;
 
