@@ -3,10 +3,22 @@ const nombre= document.getElementById("nombre");
 const email= document.getElementById("email");
 const edad= document.getElementById("edad");
 const form= document.getElementById("form");
+
+
+
+localStorage()
+
 let entrar =true;
 
 
 function aceptar(entrar){
+    //localstorage que registra el nombre, correo y edad
+    let persona = {
+        nombre: nombre.value,
+        email: email.value,
+        edad: edad.value
+    }
+    localStorage.setItem("Persona",JSON.stringify(persona));
   
 if (nombre.value.length >0 &&  email.value.length >0 && edad.value.length>0){
    entrar= true;
@@ -29,13 +41,5 @@ local.addEventListener('mouseout',function(){
 
 
 
-//localstorage que registra el nombre, correo y edad
-function GuardarLocalStorage(){
-    let persona = {
-        nombre: nombre.value,
-        email: email.value,
-        edad: edad.value
-    }
-    localStorage.setItem("Persona",JSON.stringify(persona));
-    alert("Se registro satisfactoriamente. *Por favor termina el formulario*")
-}
+
+
