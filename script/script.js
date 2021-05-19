@@ -6,7 +6,6 @@ const form= document.getElementById("form");
 
 
 
-localStorage()
 
 let entrar =true;
 
